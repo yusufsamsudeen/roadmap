@@ -1,0 +1,1318 @@
+[
+    {
+        "name": "Backend Roadmap",
+        "type": "roadmap",
+        "nodes": [
+            {
+                "title": "Introduction",
+                "type": "topic",
+                "description": "",
+                "subtopics": [
+                    {
+                        "title": "How does the internet work?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "What is HTTP?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "What is Domain Name?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "What is Hosting?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "DNS and how it works",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Browsers and how they work?",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Frontend Basics",
+                "type": "topic",
+                "description": "",
+                "subtopics": [
+                    {
+                        "title": "HTML",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "CSS",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Javascript",
+                        "type": "subtopic",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Pick a Backend Language",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Javascript",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Go",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Python",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Ruby",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Java",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "C#",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "PHP",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Rust",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Version Control Systems",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Git",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Repo Hosting Services",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Github",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "GitLab",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Relational Databases",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "MySQL",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "PostgreSQL",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "MariaDB",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "SQLite",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "MS SQL",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Oracle",
+                        "type": "path",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Learn about APIs",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "API Styles",
+                        "type": "subtopic",
+                        "categories": [
+                            {
+                                "title": "REST",
+                                "type": "category"
+                            },
+                            {
+                                "title": "JSON APIs",
+                                "type": "category"
+                            },
+                            {
+                                "title": "SOAP",
+                                "type": "category"
+                            },
+                            {
+                                "title": "gRPC",
+                                "type": "category"
+                            },
+                            {
+                                "title": "GraphQL",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Open API Specs",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Authentication",
+                        "type": "subtopic",
+                        "categories": [
+                            {
+                                "title": "JWT",
+                                "type": "category"
+                            },
+                            {
+                                "title": "OAuth",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Basic Authentication",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Token Authentication",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Cookie Based Auth",
+                                "type": "category"
+                            },
+                            {
+                                "title": "OpenID",
+                                "type": "category"
+                            },
+                            {
+                                "title": "SAML",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Web Security",
+                        "type": "subtopic",
+                        "categories": [
+                            {
+                                "title": "MD5",
+                                "type": "category"
+                            },
+                            {
+                                "title": "SHA",
+                                "type": "category"
+                            },
+                            {
+                                "title": "scrypt",
+                                "type": "category"
+                            },
+                            {
+                                "title": "bcrypt",
+                                "type": "category"
+                            },
+                            {
+                                "title": "HTTPS",
+                                "type": "category"
+                            },
+                            {
+                                "title": "OWASP Risks",
+                                "type": "category"
+                            },
+                            {
+                                "title": "CORS",
+                                "type": "category"
+                            },
+                            {
+                                "title": "SSL/TLS",
+                                "type": "category"
+                            },
+                            {
+                                "title": "CSP",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Server Security",
+                                "type": "category"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Testing",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Integration Testing",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Unit Testing",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Functional Testing",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Containerization",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Docker",
+                        "type": "subtopic",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Container Orchestration",
+                        "type": "subtopic",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Message brokers",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "RabbitMQ",
+                        "type": "subtopic",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Kafka",
+                        "type": "subtopic",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "CICD",
+                "type": "topic"
+            },
+            {
+                "title": "Search Engines",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Elasticsearch",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Solr",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "System Design",
+                "type": "topic"
+            },
+            {
+                "title": "Design & Architecture",
+                "type": "topic"
+            },
+            {
+                "title": "Architectural Patterns",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Monolith",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Microservices",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "SOA",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Serverless",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Twelve Factor Apps",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Realtime Data",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Server Sent Events",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "WebSockets",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Long / Short Polling",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Scalling Databases",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Database Indexes",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Data Replication",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Sharding Strategies",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "CAP Theorem",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "NoSQL Databases",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Realtime",
+                        "categories": [
+                            {
+                                "title": "Firebase",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Rethink",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Document DBs",
+                        "categories": [
+                            {
+                                "title": "Firebase",
+                                "type": "category"
+                            },
+                            {
+                                "title": "RethinkDB",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Key-Value",
+                        "categories": [
+                            {
+                                "title": "Redis",
+                                "type": "category"
+                            },
+                            {
+                                "title": "DynamoDB",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Column DBs",
+                        "categories": [
+                            {
+                                "title": "ClickHouse",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Cassandra",
+                                "type": "category"
+                            },
+                            {
+                                "title": "ScyllaDB",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Graph DBs",
+                        "categories": [
+                            {
+                                "title": "Neo4j",
+                                "type": "category"
+                            },
+                            {
+                                "title": "AWS Neptune",
+                                "type": "category"
+                            },
+                            {
+                                "title": "DGraph",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Time Series",
+                        "categories": [
+                            {
+                                "title": "Influx DB",
+                                "type": "category"
+                            },
+                            {
+                                "title": "TimescaleDB",
+                                "type": "category"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Building For Scale",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Observability",
+                        "categories": [
+                            {
+                                "title": "Instrumentation",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Monitoring",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Telemetry",
+                                "type": "category"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Mitigation Strategies",
+                        "categories": [
+                            {
+                                "title": "Graceful Degradation",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Throttling",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Backpressure",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Loadshifting",
+                                "type": "category"
+                            },
+                            {
+                                "title": "Circuit Breaker",
+                                "type": "category"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Frontend Roadmap",
+        "type": "roadmap",
+        "nodes": [
+            {
+                "title": "Internet",
+                "type": "topic",
+                "description": "",
+                "subtopics": [
+                    {
+                        "title": "How does the internet work?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "What is HTTP?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "What is Domain Name?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "What is Hosting?",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "DNS and how it works",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Browsers and how they work?",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "HTML",
+                "type": "topic"
+            },
+            {
+                "title": "CSS",
+                "type": "topic"
+            },
+            {
+                "title": "Javascript",
+                "type": "topic"
+            },
+            {
+                "title": "Version Control Systems",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Git",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Repo Hosting Services",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Github",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "GitLab",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Package Managers",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "npm",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "pnpm",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "yarn",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Bun",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "CSS Frameworks",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Tailwind",
+                        "type": "subpath",
+                        "leadtoroadmap": "true"
+                    },
+                    {
+                        "title": "Bootstrap",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Learn a Framework",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "React",
+                        "type": "subpath",
+                        "leadtoroadmap": "true"
+                    },
+                    {
+                        "title": "Vue.js",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Angular",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Svelte",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Solid JS",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Linters & Formatters",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Biome",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Prettier",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "ESLint",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Testing",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Vitest",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Jest",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Playwright",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Cypress",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Module Bundlers",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Vite",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "SWC",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "esbuild",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Rollup",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Rolldown",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Parcel",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Web APIs",
+                "type": "topic"
+            },
+            {
+                "title": "Web Security",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "CORS",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "HTTPS",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "CSP",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "OWASP Risks",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "SSR",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "React",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Next.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Tankstack Start",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Astro",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "react-router",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Angular",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Vue.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Nuxt.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Svelte",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "SSG",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Astro",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Next.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Vuepress",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Elventy",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Nuxt.js",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Type Checkers",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Typescript",
+                        "type": "subtopic",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Design Systems",
+                "type": "topic"
+            },
+            {
+                "title": "Deployment",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Github Pages",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Vercel",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Netlify",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Cloudflare",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Railway",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Render",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Performance",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Lighthouse",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "DevTools Usage",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Service Workers",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Cache-Control",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Streamed Responses",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Graphl",
+                "type": "topic"
+            },
+            {
+                "title": "Web Components",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "HTML Templates",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Custom Elements",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Shadow DOM",
+                        "type": "subtopic"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Java",
+        "type": "roadmap",
+        "nodes": [
+            {
+                "title": "Learn the Basics",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Basic Syntax",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Lifecycle of a Program",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Data Types",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Variables and Scopes",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Type Casting",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "String and Methods",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Math Operations",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Arrays",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Conditional",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Loops",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Basics of OOP",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Basics of OOP",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Classes and Objects",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Attributes and Methods",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Access Specifiers",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Static Keyword",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Final Keyword",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Nested Classes",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Packages",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "More about OOP",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Inhretance",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Abstraction",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Encapsulation",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Interfaces",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Method Overloading / Overriding",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Static vs Dynamic Binding",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Pass by Value / Pass by Reference",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Object Lifecycle",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Method Chaining",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Enums",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Record",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Initializer Block",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Exception Handling",
+                "type": "topic"
+            },
+            {
+                "title": "Lambda Expressions",
+                "type": "topic"
+            },
+            {
+                "title": "Modules",
+                "type": "topic"
+            },
+            {
+                "title": "Optionals",
+                "type": "topic"
+            },
+            {
+                "title": "Dependecy Injections",
+                "type": "topic"
+            },
+            {
+                "title": "I/O Operations",
+                "type": "topic"
+            },
+            {
+                "title": "File Operations",
+                "type": "topic"
+            },
+            {
+                "title": "Collections",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Arrays vs ArrayList",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Set",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Map",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Queue",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Dequeue",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Stack",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Iterator",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Generic Collections",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Concurrency",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Threads",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Java Memomy Model",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Virtual Threads",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Threads",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Cryptography",
+                "type": "topic"
+            },
+            {
+                "title": "Date and Time",
+                "type": "topic"
+            },
+            {
+                "title": "Networking",
+                "type": "topic"
+            },
+            {
+                "title": "Regular Expressions",
+                "type": "topic"
+            },
+            {
+                "title": "Database Access",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "JDBC",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "EBean",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Hibernate",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Build Tools",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Maven",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Gradle",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Bazel",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Logging Frameworks",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Logback",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "Log4j2",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "SLF4J",
+                        "type": "subtopic"
+                    },
+                    {
+                        "title": "TinyLog",
+                        "type": "subtopic"
+                    }
+                ]
+            },
+            {
+                "title": "Testing",
+                "type": "topic",
+                "subtopics": [
+                    {
+                        "title": "Unit Testing",
+                        "type": "subtopic",
+                        "categories": [
+                            {
+                                "title": "JUnit",
+                                "type": "subcategory"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Integration Testing",
+                        "type": "subtopic",
+                        "categories": [
+                            {
+                                "title": "REST Assured",
+                                "type": "subcategory"
+                            },
+                            {
+                                "title": "JMeter",
+                                "type": "subcategory"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Behavior Testing",
+                        "type": "subtopic",
+                        "categories": [
+                            {
+                                "title": "Cucumber",
+                                "type": "subcategory"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Mocking",
+                        "type": "subtopic",
+                        "categories": [
+                            {
+                                "title": "Mockito",
+                                "type": "subcategory"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
