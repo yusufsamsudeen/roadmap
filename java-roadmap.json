@@ -1,0 +1,358 @@
+[
+     {
+        "title": "Java",
+        "type": "roadmap",
+        "nodes": [
+            {
+                "title": "Learn the Basics",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Basic Syntax",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Lifecycle of a Program",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Data Types",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Variables and Scopes",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Type Casting",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "String and Methods",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Math Operations",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Arrays",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Conditional",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Loops",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Basics of OOP",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Basics of OOP",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Classes and Objects",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Attributes and Methods",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Access Specifiers",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Static Keyword",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Final Keyword",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Nested Classes",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Packages",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "More about OOP",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Inhretance",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Abstraction",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Encapsulation",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Interfaces",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Method Overloading / Overriding",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Static vs Dynamic Binding",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Pass by Value / Pass by Reference",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Object Lifecycle",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Method Chaining",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Enums",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Record",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Initializer Block",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Exception Handling",
+                "type": "concept"
+            },
+            {
+                "title": "Lambda Expressions",
+                "type": "concept"
+            },
+            {
+                "title": "Modules",
+                "type": "concept"
+            },
+            {
+                "title": "Optionals",
+                "type": "concept"
+            },
+            {
+                "title": "Dependecy Injections",
+                "type": "concept"
+            },
+            {
+                "title": "I/O Operations",
+                "type": "concept"
+            },
+            {
+                "title": "File Operations",
+                "type": "concept"
+            },
+            {
+                "title": "Collections",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Arrays vs ArrayList",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Set",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Map",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Queue",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Dequeue",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Stack",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Iterator",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Generic Collections",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Concurrency",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Threads",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Java Memomy Model",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Virtual Threads",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Threads",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Cryptography",
+                "type": "concept"
+            },
+            {
+                "title": "Date and Time",
+                "type": "concept"
+            },
+            {
+                "title": "Networking",
+                "type": "concept"
+            },
+            {
+                "title": "Regular Expressions",
+                "type": "concept"
+            },
+            {
+                "title": "Database Access",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "JDBC",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "EBean",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Hibernate",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Build Tools",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Maven",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Gradle",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Bazel",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Logging Frameworks",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Logback",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Log4j2",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "SLF4J",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "TinyLog",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Testing",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Unit Testing",
+                        "type": "topic",
+                        "subtopics": [
+                            {
+                                "title": "JUnit",
+                                "type": "subtopic"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Integration Testing",
+                        "type": "topic",
+                        "subtopics": [
+                            {
+                                "title": "REST Assured",
+                                "type": "subtopic"
+                            },
+                            {
+                                "title": "JMeter",
+                                "type": "subtopic"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Behavior Testing",
+                        "type": "topic",
+                        "subtopics": [
+                            {
+                                "title": "Cucumber",
+                                "type": "subtopic"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Mocking",
+                        "type": "topic",
+                        "subtopics": [
+                            {
+                                "title": "Mockito",
+                                "type": "subtopic"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

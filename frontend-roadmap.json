@@ -1,0 +1,386 @@
+[
+    {
+        "name": "Frontend Roadmap",
+        "type": "roadmap",
+        "nodes": [
+            {
+                "title": "Internet",
+                "type": "concept",
+                "description": "",
+                "topics": [
+                    {
+                        "title": "How does the internet work?",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "What is HTTP?",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "What is Domain Name?",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "What is Hosting?",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "DNS and how it works",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Browsers and how they work?",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "HTML",
+                "type": "concept",
+                "leadstoroadmap": true
+            },
+            {
+                "title": "CSS",
+                "type": "concept",
+                "leadstoroadmap": true
+            },
+            {
+                "title": "Javascript",
+                "type": "concept",
+                "leadstoroadmap": true
+            },
+            {
+                "title": "Version Control Systems",
+                "type": "concept",
+                "leadstoroadmap": true
+                
+            },
+            {
+                "title": "Package Managers",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "npm",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "pnpm",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "yarn",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Bun",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "CSS Frameworks",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Tailwind",
+                        "type": "subpath",
+                        "leadtoroadmap": "true"
+                    },
+                    {
+                        "title": "Bootstrap",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Learn a Framework",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "React",
+                        "type": "subpath",
+                        "leadtoroadmap": "true"
+                    },
+                    {
+                        "title": "Vue.js",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Angular",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Svelte",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    },
+                    {
+                        "title": "Solid JS",
+                        "type": "subpath",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Linters & Formatters",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Biome",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Prettier",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "ESLint",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Testing",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Vitest",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Jest",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Playwright",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Cypress",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Module Bundlers",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Vite",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "SWC",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "esbuild",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Rollup",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Rolldown",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Parcel",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Web APIs",
+                "type": "concept"
+            },
+            {
+                "title": "Web Security",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "CORS",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "HTTPS",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "CSP",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "OWASP Risks",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "SSR",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "React",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Next.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Tankstack Start",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Astro",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "react-router",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Angular",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Vue.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Nuxt.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Svelte",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "SSG",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Astro",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Next.js",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Vuepress",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Elventy",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Nuxt.js",
+                        "type": "subpath"
+                    }
+                ]
+            },
+            {
+                "title": "Type Checkers",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Typescript",
+                        "type": "topic",
+                        "leadtoroadmap": true
+                    }
+                ]
+            },
+            {
+                "title": "Design Systems",
+                "type": "concept"
+            },
+            {
+                "title": "Deployment",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Github Pages",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Vercel",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Netlify",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Cloudflare",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Railway",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Render",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Performance",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Lighthouse",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "DevTools Usage",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Service Workers",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Cache-Control",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Streamed Responses",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "GraphQL",
+                "type": "concept"
+            },
+            {
+                "title": "Web Components",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "HTML Templates",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Custom Elements",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Shadow DOM",
+                        "type": "topic"
+                    }
+                ]
+            }
+        ]
+    }
+]

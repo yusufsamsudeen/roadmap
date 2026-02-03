@@ -1,0 +1,353 @@
+[
+    {
+        "type": "roadmap",
+        "title": "Python Roadmap",
+        "nodes": [
+            {
+                "title": "Learn the Basics",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Basic Syntax",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Variables and Data Types",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Working with Strings",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Conditional",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Loops",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Type Casting",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Exceptions",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Functions, Builtin Functions",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Lists",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Tuples",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Sets",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Dictionaries",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Data Structure & Algorithms",
+                "type": "concept",
+                "topics":[
+                    {
+                        "title": "Arrays and Linked Lists",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "HashMaps",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Heaps, Stacks and Queues",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Binary Search tree",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Recursion",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Sorting Algorithms",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Modules",
+                "type": "concept",
+                "topics":[
+                    {
+                        "title": "Builtin",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Custom",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Lamdbas",
+                "type": "concept"
+            },
+            {
+                "title": "Decorators",
+                "type": "concept"
+            },
+            {
+                "title": "Iterators",
+                "type": "concept"
+            },
+            {
+                "title": "Regular Expressions",
+                "type": "concept"
+            },
+            {
+                "title": "Variable Scope",
+                "type": "concept"
+            },
+            {
+                "title": "Object Oriented Programming",
+                "type": "concept",
+                "topics":[
+                    {
+                        "title": "Classes",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Inheritance",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Encapsulation",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Methods",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Package Managers",
+                "type": "concept",
+                "topics" : [
+                    {
+                        "title": "PyPI",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Pip",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Conda",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "uv",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Poetry",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "pdm",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Common Packages",
+                "type": "concept"
+            },
+            {
+                "title": "List Comprehensions",
+                "type": "concept"
+            },
+            {
+                "title": "Generator Expressions",
+                "type": "concept"
+            },
+            {
+                "title": "Paradigms",
+                "type": "concept"
+            },
+            {
+                "title": "Context Manager",
+                "type": "concept"
+            },
+            {
+                "title": "Learn a Framework",
+                "type": "path",
+                "paths": [
+                    {
+                        "title": "Plotly Dash",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Pyramid",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "gevent",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "aiohttp",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Tornado",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Sanic",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Fast API",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Django",
+                        "type": "subpath"
+                    },
+                    {
+                        "title": "Flask",
+                        "type": "subpath"
+                    }
+                ]
+                
+            },
+            {
+                "title": "Concurrency",
+                "type": "concept",
+                "topics":[
+                    {
+                        "title": "Multiprocessing",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Asynchrony",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "GIL",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Threading",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Environments",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "Pipenv",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "virtualenv",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "pyenv",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Static Typing",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "typing",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "mypy",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "pyright",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "Pydantic",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Code Formatting",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "yapf",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "black",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "ruff",
+                        "type": "topic"
+                    }
+                ]
+            },
+            {
+                "title": "Testing",
+                "type": "concept",
+                "topics": [
+                    {
+                        "title": "tax",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "unittest / pyUnit",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "doctest",
+                        "type": "topic"
+                    },
+                    {
+                        "title": "pytest",
+                        "type":"topic"
+                    }
+                ]
+            },
+            {
+                "title": "Documentation",
+                "type":"concept",
+                "topics":[
+                    {
+                        "title": "Sphinx",
+                        "type": "topic"
+                    }
+                ]
+            }
+        ]
+    }
+]
