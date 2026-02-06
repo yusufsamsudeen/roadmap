@@ -1,0 +1,351 @@
+{
+    "type": "roadmap",
+    "title": "React Roadmap",
+    "nodes": [
+        {
+            "title": "CLI Tools",
+            "type": "concept",
+            "topics": [
+                {
+                    "title": "Vite",
+                    "type": "topic"
+                }
+            ]
+        },
+        {
+            "title": "Components",
+            "type": "concept",
+            "topics": [
+                {
+                    "title": "Functional Component",
+                    "type": "topic"
+                },
+                {
+                    "title": "Component Basics",
+                    "type": "topic",
+                    "subtopics": [
+                        {
+                            "title": "JSX",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Props vs State",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Conditional Rendering",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Composition",
+                            "type": "subtopic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Rendering",
+                    "type": "topic",
+                    "subtopics": [
+                        {
+                            "title": "Component Lifecycle",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "List and Keys",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Render Props",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Refs",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Events",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "High Order Components",
+                            "type": "subtopic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Hooks",
+                    "type": "topic",
+                    "subtopics": [
+                        {
+                            "title": "useState",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "useEffect",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "useCallback",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "useReducer",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "useMemo",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "UseContext",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Creating Custom Hooks",
+                            "type": "subtopic"
+                        },
+                        {
+                            "title": "Hooks Best Practices",
+                            "type": "subtopic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Routers",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "React Router",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Tanstack Router",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "State Management",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "MobX",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Context",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "MoZustandX",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Jotai",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Writing CSS",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "Panda CSS",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "CSS Modules",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Tailwind CSS",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Component / Library",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "Material UI",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Chakra UI",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Shadcn UI",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Headless Component Libraries",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "Radix UI",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "React Aria",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Ark UI",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "API Calls",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "Apollo",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Relay",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "urql",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Tansatck Query",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Axios",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "swr",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "rtk-query",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Testing",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "Vitest",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Jest",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "react-testing-library",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Cypress",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Playwright",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Frameworks",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "react-router",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Astro",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Next.js",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Forms",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "React Hook Form",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Formik",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Types & Validation",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "Typescript",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Zod",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Animations",
+                    "type": "concept",
+                    "topics": [
+                        {
+                            "title": "Framer Motion",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "react spring",
+                            "type": "topic"
+                        },
+                        {
+                            "title": "Gsock",
+                            "type": "topic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Error Boundaries",
+                    "type": "concept"
+                },
+                {
+                    "title": "Server APIs",
+                    "type": "concept"
+                },
+                {
+                    "title": "Suspense",
+                    "type": "concept"
+                },
+                {
+                    "title": "Portals",
+                    "type": "concept"
+                },
+                {
+                    "title": "React Nativ",
+                    "type": "concept"
+                }
+                
+            ]
+        }
+    ]
+}
